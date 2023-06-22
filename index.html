@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-box position="-1 2.2 -3" depth="0.01" height="0.8" width="0.8" color="#4C53D9"></a-box>
+      <a-box position="-1 1 -3" depth="0.4" height="1.6" width="1.5" color="#4CC3D9"></a-box>
+      <a-cylinder position="-1.4 -0.1 -3" radius="0.1" height="0.9" color="#FFC65D"></a-cylinder>
+      <a-cylinder position="-0.7 -0.1 -3" radius="0.1" height="0.9" color="#FFC65D"></a-cylinder>
+      <a-octahedron position="-1.4 -0.6 -3" color="#C32525" radius="0.16"></a-octahedron>
+      <a-octahedron position="-0.7 -0.6 -3" color="#C32525" radius="0.16"></a-octahedron>
+      <a-sphere position="-1.2 2.4 -3" radius="0.2" color="#FFFFFF"></a-sphere>
+      <a-sphere position="-0.8 2.4 -3" radius="0.2" color="#FFFFFF"></a-sphere>
+      <a-entity animation="property:position; from:-0.8 2.2 -3; to:-0.8 1.2 -3; dir:alternate; loop: true; dur:1000;">
+      <a-sphere position="-1.2 2.2 -3" radius="0.1" color="#000000"  ></a-sphere>
+    </a-entity>
+      
+      
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>
